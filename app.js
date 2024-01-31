@@ -4,6 +4,7 @@ const port = process.env.PORT || 3000
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
+const urlRoutes = require('./routes/urlRoutes');
 
 // Load environment variables
 dotenv.config();
@@ -22,6 +23,8 @@ mongoose
   .catch((err) => {
     console.log(err);
   });
+
+  app.use('/', urlRoutes);
 
 app.listen(port, (req, res) => {
   console.log(`Port is running on ${port}`);
