@@ -27,6 +27,7 @@ This is a URL Shortener. User can add your URL and give the responce to shortUrl
 | shortid | ^2.2.16 |
 | valid-url | ^1.0.9 |
 
+
  
 ## API Reference
 
@@ -37,9 +38,23 @@ This is a URL Shortener. User can add your URL and give the responce to shortUrl
 add details to get short URL
 "originalUrl"
 
+#### Get Redirect original URL
+
+```http://localhost:3000/${shortUrl} ```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `shortUrl`| `string` | **Required**. shortUrl of redirect original URL |
+
+You can add in this api in browser to redirect original URL page.
+
 
 ## Screenshots
 
 ### Get ShortURL
 
 ![image](https://github.com/poojan-bhalodiya/URL-shortener-using-nodejs/assets/120900697/962ead63-2aac-41ef-a4cc-c489f28ffcd1)
+
+### GEt redirect to original URL
+
+ ![image](https://github.com/poojan-bhalodiya/URL-shortener-using-nodejs/assets/120900697/01bd1a53-54c8-4b0e-8020-e3e2c71938cd)
