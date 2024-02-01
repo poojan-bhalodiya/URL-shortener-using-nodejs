@@ -53,8 +53,8 @@ You can add in this api in browser to redirect original URL page.
 
 ### Get ShortURL
 
-![image](https://github.com/poojan-bhalodiya/URL-shortener-using-nodejs/assets/120900697/962ead63-2aac-41ef-a4cc-c489f28ffcd1)
+![image]()
 
 ### GEt redirect to original URL
 
- ![image](https://github.com/poojan-bhalodiya/URL-shortener-using-nodejs/assets/120900697/01bd1a53-54c8-4b0e-8020-e3e2c71938cd)
+ ![image](https://res.cloudinary.com/dhntmsget/image/upload/v1706794514/Projects/URL-shortener-using-nodejs/Screen%20Shorts/uvaxklexbdahfr7kbnfURL.png)
