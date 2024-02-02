@@ -53,8 +53,5 @@ You can add in this api in browser to redirect original URL page.
 
 ### Get ShortURL
 
-![image]()
-
-### GEt redirect to original URL
 
  ![image](https://res.cloudinary.com/dhntmsget/image/upload/v1706794514/Projects/URL-shortener-using-nodejs/Screen%20Shorts/uvaxklexbdahfr7kbnfURL.png)
